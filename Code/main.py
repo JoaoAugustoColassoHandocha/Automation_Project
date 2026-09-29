@@ -11,3 +11,4 @@ Automation Logic:
 
 import pyautogui
 
+pyautogui.press('win')
