@@ -72,4 +72,5 @@ for line in table.index:
     write('Custo') # Cost
     press('tab')
     write('Obs') # Note
+    write('tab')
     press('enter')
