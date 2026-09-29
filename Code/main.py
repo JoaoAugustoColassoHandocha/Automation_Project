@@ -20,6 +20,7 @@ pyautogui.PAUSE = 1
 press = pyautogui.press
 write = pyautogui.write
 click = pyautogui.click
+sleep = time.sleep
 
 # Browser request and link
 os.system('cls' if os.name == 'nt' else 'clear')
@@ -34,7 +35,7 @@ write(browser)
 press('enter')
 write(link)
 press('enter')
-time.sleep(5)
+sleep(5)
 
 # Log in
 click(x=717, y=371)
