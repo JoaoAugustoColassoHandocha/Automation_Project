@@ -70,15 +70,15 @@ for line in table.index:
     note_table = table.loc[line, 'obs']
 
     click(x=864, y=271)
-    write('Código') # Code
+    write(code_table) # Code
     press('tab')
-    write('Marca') # Mark
+    write(mark_table) # Mark
     press('tab')
-    write('Tipo') # Type
+    write(type_table) # Type
     press('tab')
-    write('Categoria') # Category
+    write(category_table) # Category
     press('tab')
-    write('Preço') # Price
+    write(price_table) # Price
     press('tab')
     write('Custo') # Cost
     press('tab')
