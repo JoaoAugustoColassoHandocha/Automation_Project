@@ -54,3 +54,4 @@ press('enter')
 sleep(5)
 
 # Open the database
+print(table)
