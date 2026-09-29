@@ -28,6 +28,6 @@ pyautogui.write(browser)
 pyautogui.press('enter')
 pyautogui.write(link)
 pyautogui.press('enter')
-
+time.sleep(5)
 
 # Log in
