@@ -80,8 +80,8 @@ for line in table.index:
     press('tab')
     write(price_table) # Price
     press('tab')
-    write('Custo') # Cost
+    write(cost_table) # Cost
     press('tab')
-    write('Obs') # Note
+    write(note_table) # Note
     write('tab')
     press('enter')
