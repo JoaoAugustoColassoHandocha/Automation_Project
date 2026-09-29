@@ -82,6 +82,7 @@ for line in table.index:
     press('tab')
     write(cost_table) # Cost
     press('tab')
-    write(note_table) # Note
+    if note_table != 'nan':
+        write(note_table) # Note
     write('tab')
     press('enter')
