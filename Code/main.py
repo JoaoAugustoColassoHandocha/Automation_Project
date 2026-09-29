@@ -1,5 +1,6 @@
 '''
-Steps:
+
+Automation Logic:
 
 1 - Access the company system
 2 - Log in
