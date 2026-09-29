@@ -28,7 +28,7 @@ sleep = time.sleep
 
 # Open the database
 table = pandas.read_csv('Code\\produtos.csv')
-pandas. read_excel(sheet_name = 'produtos')
+pandas. read_excel(sheet_name = 'produtos') # Select the Excel tab into which the information needs to be imported.
 
 # Browser request and link
 os.system('cls' if os.name == 'nt' else 'clear')
