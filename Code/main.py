@@ -11,11 +11,13 @@ Automation Logic:
 
 import pyautogui
 
+link = 'https://dlp.hashtagtreinamentos.com/python/intensivao/login'
+
 pyautogui.PAUSE = 1
 
 # Access the company system
 pyautogui.press('win')
 pyautogui.write('edge')
 pyautogui.press('enter')
-pyautogui.write('https://dlp.hashtagtreinamentos.com/python/intensivao/login')
+pyautogui.write(link)
 pyautogui.press('enter')
