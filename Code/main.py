@@ -14,5 +14,3 @@ import pyautogui
 pyautogui.press('win')
 pyautogui.write('edge')
 pyautogui.press('enter')
-pyautogui.write('google.com')
-pyautogui.press('enter')
