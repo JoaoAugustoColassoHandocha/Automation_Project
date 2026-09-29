@@ -14,8 +14,10 @@ Link used in the project: https://dlp.hashtagtreinamentos.com/python/intensivao/
 
 import pyautogui, os, time
 
+# Pause time between each execution
 pyautogui.PAUSE = 1
 
+# Browser request and link
 os.system('cls' if os.name == 'nt' else 'clear')
 browser = input('\nNavegador: ')
 os.system('cls' if os.name == 'nt' else 'clear')
