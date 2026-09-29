@@ -9,6 +9,7 @@ Automation Logic:
 
 pip install pyautogui
 pip install pandas
+pip install pandas openpyxl
 
 Link used in the project: https://dlp.hashtagtreinamentos.com/python/intensivao/login
 
