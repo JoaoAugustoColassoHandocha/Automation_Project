@@ -1,4 +1,6 @@
 '''
+Steps:
+
 1 - Access the company system
 2 - Log in
 3 - Open the database
