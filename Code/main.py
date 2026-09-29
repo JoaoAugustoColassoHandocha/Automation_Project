@@ -84,5 +84,5 @@ for line in table.index:
     press('tab')
     if note_table != 'nan':
         write(note_table) # Note
-    write('tab')
+    press('tab')
     press('enter')
