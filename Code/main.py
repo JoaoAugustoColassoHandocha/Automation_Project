@@ -12,7 +12,7 @@ Link used in the project: https://dlp.hashtagtreinamentos.com/python/intensivao/
 
 '''
 
-import pyautogui, os
+import pyautogui, os, time
 
 pyautogui.PAUSE = 1
 
