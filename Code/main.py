@@ -20,11 +20,13 @@ import pyautogui, os, time, pandas
 # Pause time between each execution
 pyautogui.PAUSE = 1
 
+# Executions
 press = pyautogui.press
 write = pyautogui.write
 click = pyautogui.click
 sleep = time.sleep
 
+# Database import
 table = pandas.read_csv('produtos.csv')
 
 # Browser request and link
