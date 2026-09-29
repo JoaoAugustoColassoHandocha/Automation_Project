@@ -13,6 +13,7 @@ import pyautogui
 
 pyautogui.PAUSE = 1
 
+# Access the company system
 pyautogui.press('win')
 pyautogui.write('edge')
 pyautogui.press('enter')
