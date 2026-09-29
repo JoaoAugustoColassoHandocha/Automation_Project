@@ -57,3 +57,4 @@ sleep(5)
 
 # Register the product
 click(x=864, y=271)
+press('tab')
