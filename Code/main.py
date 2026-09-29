@@ -26,7 +26,7 @@ write = pyautogui.write
 click = pyautogui.click
 sleep = time.sleep
 
-# Database import
+# Open the database
 table = pandas.read_csv('Code\\produtos.csv')
 
 # Browser request and link
@@ -53,5 +53,4 @@ press('tab')
 press('enter')
 sleep(5)
 
-# Open the database
-print(table)
+# 
