@@ -17,6 +17,8 @@ import pyautogui, os, time
 # Pause time between each execution
 pyautogui.PAUSE = 1
 
+press = pyautogui.press
+
 # Browser request and link
 os.system('cls' if os.name == 'nt' else 'clear')
 browser = input('\nNavegador: ')
@@ -25,17 +27,17 @@ link = input('\nLink: ')
 os.system('cls' if os.name == 'nt' else 'clear')
 
 # Access the company system
-pyautogui.press('win')
+press('win')
 pyautogui.write(browser)
-pyautogui.press('enter')
+press('enter')
 pyautogui.write(link)
-pyautogui.press('enter')
+press('enter')
 time.sleep(5)
 
 # Log in
 pyautogui.click(x=717, y=371)
 pyautogui.write('pythonimpressinador@gmail.com')
-pyautogui.press('tab')
+press('tab')
 pyautogui.write('teste')
-pyautogui.press('tab')
-pyautogui.press('enter')
+press('tab')
+press('enter')
