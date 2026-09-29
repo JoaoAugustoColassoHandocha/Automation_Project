@@ -14,7 +14,7 @@ import pyautogui, os
 pyautogui.PAUSE = 1
 
 browser = input('\nNavegador: ')
-link = input('\nLink do sistema ')
+link = input('\nLink: ')
 
 # Access the company system
 pyautogui.press('win')
