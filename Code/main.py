@@ -15,7 +15,7 @@ Link used in the project: https://dlp.hashtagtreinamentos.com/python/intensivao/
 
 '''
 
-import pyautogui, os, time
+import pyautogui, os, time, pandas
 
 # Pause time between each execution
 pyautogui.PAUSE = 1
