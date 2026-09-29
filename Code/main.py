@@ -13,6 +13,7 @@ import pyautogui, os
 
 pyautogui.PAUSE = 1
 
+os.system('cls' if os.name == 'nt' else 'clear')
 browser = input('\nNavegador: ')
 os.system('cls' if os.name == 'nt' else 'clear')
 link = input('\nLink: ')
