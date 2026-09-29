@@ -31,3 +31,4 @@ pyautogui.press('enter')
 time.sleep(5)
 
 # Log in
+pyautogui.click()
