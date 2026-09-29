@@ -28,6 +28,7 @@ sleep = time.sleep
 
 # Open the database
 table = pandas.read_csv('Code\\produtos.csv')
+pandas. read_excel(sheet_name = 'produtos')
 
 # Browser request and link
 os.system('cls' if os.name == 'nt' else 'clear')
