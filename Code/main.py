@@ -14,7 +14,9 @@ import pyautogui, os
 pyautogui.PAUSE = 1
 
 browser = input('\nNavegador: ')
+os.system('cls' if os.name == 'nt' else 'clear')
 link = input('\nLink: ')
+os.system('cls' if os.name == 'nt' else 'clear')
 
 # Access the company system
 pyautogui.press('win')
