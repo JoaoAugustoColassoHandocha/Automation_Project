@@ -11,6 +11,8 @@ Automation Logic:
 
 import pyautogui
 
+pyautogui.PAUSE = 1
+
 pyautogui.press('win')
 pyautogui.write('edge')
 pyautogui.press('enter')
