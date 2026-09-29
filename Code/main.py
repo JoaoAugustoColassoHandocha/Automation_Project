@@ -56,3 +56,4 @@ press('enter')
 sleep(5)
 
 # Register the product
+click(x=864, y=271)
