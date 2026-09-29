@@ -31,7 +31,6 @@ pyautogui.press('enter')
 time.sleep(5)
 
 # Log in
-
 pyautogui.click(x=717, y=371)
 pyautogui.write('pythonimpressinador@gmail.com')
 pyautogui.click(x=723, y=462)
