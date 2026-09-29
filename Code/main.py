@@ -13,6 +13,8 @@ pip install pandas openpyxl
 
 Link used in the project: https://dlp.hashtagtreinamentos.com/python/intensivao/login
 
+pandas.read_excel(sheet_name = 'Tab Name') - Select the Excel tab into which the information needs to be imported.
+
 '''
 
 import pyautogui, os, time, pandas
@@ -28,7 +30,6 @@ sleep = time.sleep
 
 # Open the database
 table = pandas.read_csv('Code\\produtos.csv')
-pandas. read_excel(sheet_name = 'produtos') # Select the Excel tab into which the information needs to be imported.
 
 # Browser request and link
 os.system('cls' if os.name == 'nt' else 'clear')
