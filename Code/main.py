@@ -7,6 +7,8 @@ Automation Logic:
 4 - Register a product
 5 - Repeat step 4 until the product list is finished
 
+pip install pyautogui
+pip install pandas
 
 Link used in the project: https://dlp.hashtagtreinamentos.com/python/intensivao/login
 
