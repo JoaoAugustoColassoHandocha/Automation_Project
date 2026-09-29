@@ -25,6 +25,8 @@ write = pyautogui.write
 click = pyautogui.click
 sleep = time.sleep
 
+table = pandas.read_csv
+
 # Browser request and link
 os.system('cls' if os.name == 'nt' else 'clear')
 browser = input('\nNavegador: ')
