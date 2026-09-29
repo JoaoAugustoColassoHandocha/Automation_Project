@@ -57,10 +57,17 @@ sleep(5)
 
 # Register the product
 click(x=864, y=271)
+write('Código') # Code
 press('tab')
+write('Marca') # Mark
 press('tab')
+write('Tipo') # Type
 press('tab')
+write('Categoria') # Category
 press('tab')
+write('Preço') # Price
 press('tab')
+write('Custo') # Cost
 press('tab')
+write('Obs') # Note
 press('enter')
