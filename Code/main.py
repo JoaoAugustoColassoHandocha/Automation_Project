@@ -59,6 +59,15 @@ sleep(5)
 # Register the products
 
 for line in table.index:
+    
+    # Collecting product information
+    code_table = table.loc[line, 'código']
+    mark_table = table.loc[line, 'marca']
+    type_table = table.loc[line, 'tipo']
+    category_table = table.loc[line, 'categoria']
+    price_table = table.loc[line, 'preco_unitario']
+    cost_table = table.loc[line, 'custo']
+    note_table = table.loc[line, 'obs']
 
     click(x=864, y=271)
     write('Código') # Code
