@@ -41,7 +41,7 @@ sleep(5)
 click(x=717, y=371)
 write('pythonimpressinador@gmail.com') # Login
 press('tab')
-write('teste') # Password
+write('') # Password
 press('tab')
 press('enter')
 sleep(5)
