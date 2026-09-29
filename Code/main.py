@@ -33,3 +33,5 @@ time.sleep(5)
 # Log in
 
 pyautogui.click(x=717, y=371)
+pyautogui.write('joaochjogos@gmail.com')
+pyautogui.click()
