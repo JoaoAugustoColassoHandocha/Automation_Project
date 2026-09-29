@@ -1,8 +1,8 @@
 '''
-1° - Entrar no sistema da empresa
-2° - Fazer login
-3 ° - Abrir a base de dados
-4° - Cadastrar um produto
-5°  - Repetir o passo 4 até acabar a lista de proutos
+1 - Access the company system
+2 - Log in
+3 - Open the database
+4 - Register a product
+5 - Repeat step 4 until the product list is finished
 
 '''
