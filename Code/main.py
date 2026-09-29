@@ -14,6 +14,8 @@ Link used in the project: https://dlp.hashtagtreinamentos.com/python/intensivao/
 
 pandas.read_excel(sheet_name = 'Tab Name') - Select the Excel tab into which the information needs to be imported.
 
+scroll() - Scroll down or up(Positive numbers upwards | Negative numbers downwards.).
+
 '''
 
 import pyautogui, os, time, pandas
