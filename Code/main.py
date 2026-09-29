@@ -45,3 +45,5 @@ write('teste')
 press('tab')
 press('enter')
 sleep(5)
+
+# Open the database
