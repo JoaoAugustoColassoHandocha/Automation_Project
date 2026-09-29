@@ -4,7 +4,7 @@ Automation Logic:
 1 - Access the company system
 2 - Log in
 3 - Open the database
-4 - Register a product
+4 - Register the product
 5 - Repeat step 4 until the product list is finished
 
 pip install pyautogui
@@ -55,4 +55,4 @@ press('tab')
 press('enter')
 sleep(5)
 
-# 
+# Register the product
