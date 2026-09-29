@@ -61,7 +61,7 @@ sleep(5)
 for line in table.index:
     
     # Collecting product information
-    code_table = str(table.loc[line, 'código'])
+    code_table = str(table.loc[line, 'codigo'])
     mark_table = str(table.loc[line, 'marca'])
     type_table = str(table.loc[line, 'tipo'])
     category_table = str(table.loc[line, 'categoria'])
