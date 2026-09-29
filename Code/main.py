@@ -4,8 +4,7 @@ Automation Logic:
 1 - Access the company system
 2 - Log in
 3 - Open the database
-4 - Register the product
-5 - Repeat step 4 until the product list is finished
+4 - Register the products
 
 pip install pyautogui
 pip install pandas
@@ -55,19 +54,22 @@ press('tab')
 press('enter')
 sleep(5)
 
-# Register the product
-click(x=864, y=271)
-write('Código') # Code
-press('tab')
-write('Marca') # Mark
-press('tab')
-write('Tipo') # Type
-press('tab')
-write('Categoria') # Category
-press('tab')
-write('Preço') # Price
-press('tab')
-write('Custo') # Cost
-press('tab')
-write('Obs') # Note
-press('enter')
+# Register the products
+
+for linha in table.index:
+
+    click(x=864, y=271)
+    write('Código') # Code
+    press('tab')
+    write('Marca') # Mark
+    press('tab')
+    write('Tipo') # Type
+    press('tab')
+    write('Categoria') # Category
+    press('tab')
+    write('Preço') # Price
+    press('tab')
+    write('Custo') # Cost
+    press('tab')
+    write('Obs') # Note
+    press('enter')
