@@ -56,7 +56,7 @@ sleep(5)
 
 # Register the products
 
-for linha in table.index:
+for line in table.index:
 
     click(x=864, y=271)
     write('Código') # Code
